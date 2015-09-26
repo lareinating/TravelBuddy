@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1557D4B436D8966C42191A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF5D4CABF381CA41D8B927E /* libPods.a */; };
+		FEDBD1411BB72D9E00463D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD1401BB72D9E00463D36 /* main.m */; };
+		FEDBD1441BB72D9E00463D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD1431BB72D9E00463D36 /* AppDelegate.m */; };
+		FEDBD1471BB72D9E00463D36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD1461BB72D9E00463D36 /* ViewController.m */; };
+		FEDBD14C1BB72D9E00463D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD14B1BB72D9E00463D36 /* Assets.xcassets */; };
+		FEDBD14F1BB72D9E00463D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD14D1BB72D9E00463D36 /* LaunchScreen.storyboard */; };
+		FEDBD15A1BB72D9F00463D36 /* TravelBuddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD1591BB72D9F00463D36 /* TravelBuddyTests.m */; };
+		FEDBD1651BB72D9F00463D36 /* TravelBuddyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD1641BB72D9F00463D36 /* TravelBuddyUITests.m */; };
+		FEDBD1731BB72F3600463D36 /* ShaderUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD1721BB72F3600463D36 /* ShaderUtilities.c */; settings = {ASSET_TAGS = (); }; };
+		FEDBD17A1BB730BF00463D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD1781BB730BF00463D36 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEDBD1561BB72D9F00463D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEDBD1341BB72D9E00463D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEDBD13B1BB72D9E00463D36;
+			remoteInfo = TravelBuddy;
+		};
+		FEDBD1611BB72D9F00463D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEDBD1341BB72D9E00463D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEDBD13B1BB72D9E00463D36;
+			remoteInfo = TravelBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF5D4CABF381CA41D8B927E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9947BA547B850BCF449F3A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		ED24DA260D33861243CD8586 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FEDBD13C1BB72D9E00463D36 /* TravelBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDBD1401BB72D9E00463D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEDBD1421BB72D9E00463D36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEDBD1431BB72D9E00463D36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEDBD1451BB72D9E00463D36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEDBD1461BB72D9E00463D36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEDBD14B1BB72D9E00463D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEDBD14E1BB72D9E00463D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEDBD1501BB72D9E00463D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDBD1551BB72D9F00463D36 /* TravelBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDBD1591BB72D9F00463D36 /* TravelBuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelBuddyTests.m; sourceTree = "<group>"; };
+		FEDBD15B1BB72D9F00463D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDBD1601BB72D9F00463D36 /* TravelBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDBD1641BB72D9F00463D36 /* TravelBuddyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelBuddyUITests.m; sourceTree = "<group>"; };
+		FEDBD1661BB72D9F00463D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDBD1721BB72F3600463D36 /* ShaderUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ShaderUtilities.c; path = "../../../../Downloads/opentok-ios-sdk-samples-develop/5.Multi-Party-Call/Multi-Party-Call/ShaderUtilities.c"; sourceTree = "<group>"; };
+		FEDBD1741BB72F3E00463D36 /* ShaderUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShaderUtilities.h; path = "../../../../Downloads/opentok-ios-sdk-samples-develop/5.Multi-Party-Call/Multi-Party-Call/ShaderUtilities.h"; sourceTree = "<group>"; };
+		FEDBD1791BB730BF00463D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/opentok-ios-sdk-samples-develop/5.Multi-Party-Call/Multi-Party-Call/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDBD1391BB72D9E00463D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1557D4B436D8966C42191A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDBD1521BB72D9F00463D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDBD15D1BB72D9F00463D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207AEBE5008B9BF9ABA174E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF5D4CABF381CA41D8B927E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E49F38A3CCF17D4311272FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED24DA260D33861243CD8586 /* Pods.debug.xcconfig */,
+				8F9947BA547B850BCF449F3A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEDBD1331BB72D9E00463D36 = {
+			isa = PBXGroup;
+			children = (
+				FEDBD13E1BB72D9E00463D36 /* TravelBuddy */,
+				FEDBD1581BB72D9F00463D36 /* TravelBuddyTests */,
+				FEDBD1631BB72D9F00463D36 /* TravelBuddyUITests */,
+				FEDBD13D1BB72D9E00463D36 /* Products */,
+				6E49F38A3CCF17D4311272FC /* Pods */,
+				207AEBE5008B9BF9ABA174E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEDBD13D1BB72D9E00463D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBD13C1BB72D9E00463D36 /* TravelBuddy.app */,
+				FEDBD1551BB72D9F00463D36 /* TravelBuddyTests.xctest */,
+				FEDBD1601BB72D9F00463D36 /* TravelBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEDBD13E1BB72D9E00463D36 /* TravelBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBD1421BB72D9E00463D36 /* AppDelegate.h */,
+				FEDBD1431BB72D9E00463D36 /* AppDelegate.m */,
+				FEDBD1781BB730BF00463D36 /* Main.storyboard */,
+				FEDBD1451BB72D9E00463D36 /* ViewController.h */,
+				FEDBD1461BB72D9E00463D36 /* ViewController.m */,
+				FEDBD1721BB72F3600463D36 /* ShaderUtilities.c */,
+				FEDBD1741BB72F3E00463D36 /* ShaderUtilities.h */,
+				FEDBD14B1BB72D9E00463D36 /* Assets.xcassets */,
+				FEDBD14D1BB72D9E00463D36 /* LaunchScreen.storyboard */,
+				FEDBD1501BB72D9E00463D36 /* Info.plist */,
+				FEDBD13F1BB72D9E00463D36 /* Supporting Files */,
+			);
+			path = TravelBuddy;
+			sourceTree = "<group>";
+		};
+		FEDBD13F1BB72D9E00463D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBD1401BB72D9E00463D36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEDBD1581BB72D9F00463D36 /* TravelBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBD1591BB72D9F00463D36 /* TravelBuddyTests.m */,
+				FEDBD15B1BB72D9F00463D36 /* Info.plist */,
+			);
+			path = TravelBuddyTests;
+			sourceTree = "<group>";
+		};
+		FEDBD1631BB72D9F00463D36 /* TravelBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBD1641BB72D9F00463D36 /* TravelBuddyUITests.m */,
+				FEDBD1661BB72D9F00463D36 /* Info.plist */,
+			);
+			path = TravelBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEDBD13B1BB72D9E00463D36 /* TravelBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDBD1691BB72D9F00463D36 /* Build configuration list for PBXNativeTarget "TravelBuddy" */;
+			buildPhases = (
+				D38051D655F476B722072348 /* Check Pods Manifest.lock */,
+				FEDBD1381BB72D9E00463D36 /* Sources */,
+				FEDBD1391BB72D9E00463D36 /* Frameworks */,
+				FEDBD13A1BB72D9E00463D36 /* Resources */,
+				F18AAA5B31C5229533DEB35A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelBuddy;
+			productName = TravelBuddy;
+			productReference = FEDBD13C1BB72D9E00463D36 /* TravelBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEDBD1541BB72D9F00463D36 /* TravelBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDBD16C1BB72D9F00463D36 /* Build configuration list for PBXNativeTarget "TravelBuddyTests" */;
+			buildPhases = (
+				FEDBD1511BB72D9F00463D36 /* Sources */,
+				FEDBD1521BB72D9F00463D36 /* Frameworks */,
+				FEDBD1531BB72D9F00463D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEDBD1571BB72D9F00463D36 /* PBXTargetDependency */,
+			);
+			name = TravelBuddyTests;
+			productName = TravelBuddyTests;
+			productReference = FEDBD1551BB72D9F00463D36 /* TravelBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEDBD15F1BB72D9F00463D36 /* TravelBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDBD16F1BB72D9F00463D36 /* Build configuration list for PBXNativeTarget "TravelBuddyUITests" */;
+			buildPhases = (
+				FEDBD15C1BB72D9F00463D36 /* Sources */,
+				FEDBD15D1BB72D9F00463D36 /* Frameworks */,
+				FEDBD15E1BB72D9F00463D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEDBD1621BB72D9F00463D36 /* PBXTargetDependency */,
+			);
+			name = TravelBuddyUITests;
+			productName = TravelBuddyUITests;
+			productReference = FEDBD1601BB72D9F00463D36 /* TravelBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEDBD1341BB72D9E00463D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Lareina;
+				TargetAttributes = {
+					FEDBD13B1BB72D9E00463D36 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FEDBD1541BB72D9F00463D36 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FEDBD13B1BB72D9E00463D36;
+					};
+					FEDBD15F1BB72D9F00463D36 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FEDBD13B1BB72D9E00463D36;
+					};
+				};
+			};
+			buildConfigurationList = FEDBD1371BB72D9E00463D36 /* Build configuration list for PBXProject "TravelBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEDBD1331BB72D9E00463D36;
+			productRefGroup = FEDBD13D1BB72D9E00463D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEDBD13B1BB72D9E00463D36 /* TravelBuddy */,
+				FEDBD1541BB72D9F00463D36 /* TravelBuddyTests */,
+				FEDBD15F1BB72D9F00463D36 /* TravelBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEDBD13A1BB72D9E00463D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDBD14F1BB72D9E00463D36 /* LaunchScreen.storyboard in Resources */,
+				FEDBD14C1BB72D9E00463D36 /* Assets.xcassets in Resources */,
+				FEDBD17A1BB730BF00463D36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDBD1531BB72D9F00463D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDBD15E1BB72D9F00463D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D38051D655F476B722072348 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F18AAA5B31C5229533DEB35A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEDBD1381BB72D9E00463D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDBD1471BB72D9E00463D36 /* ViewController.m in Sources */,
+				FEDBD1731BB72F3600463D36 /* ShaderUtilities.c in Sources */,
+				FEDBD1441BB72D9E00463D36 /* AppDelegate.m in Sources */,
+				FEDBD1411BB72D9E00463D36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDBD1511BB72D9F00463D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDBD15A1BB72D9F00463D36 /* TravelBuddyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDBD15C1BB72D9F00463D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDBD1651BB72D9F00463D36 /* TravelBuddyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEDBD1571BB72D9F00463D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEDBD13B1BB72D9E00463D36 /* TravelBuddy */;
+			targetProxy = FEDBD1561BB72D9F00463D36 /* PBXContainerItemProxy */;
+		};
+		FEDBD1621BB72D9F00463D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEDBD13B1BB72D9E00463D36 /* TravelBuddy */;
+			targetProxy = FEDBD1611BB72D9F00463D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEDBD14D1BB72D9E00463D36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDBD14E1BB72D9E00463D36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FEDBD1781BB730BF00463D36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDBD1791BB730BF00463D36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEDBD1671BB72D9F00463D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEDBD1681BB72D9F00463D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEDBD16A1BB72D9F00463D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED24DA260D33861243CD8586 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TravelBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lareina.TravelBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEDBD16B1BB72D9F00463D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9947BA547B850BCF449F3A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TravelBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lareina.TravelBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEDBD16D1BB72D9F00463D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravelBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lareina.TravelBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelBuddy.app/TravelBuddy";
+			};
+			name = Debug;
+		};
+		FEDBD16E1BB72D9F00463D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravelBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lareina.TravelBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelBuddy.app/TravelBuddy";
+			};
+			name = Release;
+		};
+		FEDBD1701BB72D9F00463D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TravelBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lareina.TravelBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TravelBuddy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FEDBD1711BB72D9F00463D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TravelBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lareina.TravelBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TravelBuddy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEDBD1371BB72D9E00463D36 /* Build configuration list for PBXProject "TravelBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDBD1671BB72D9F00463D36 /* Debug */,
+				FEDBD1681BB72D9F00463D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDBD1691BB72D9F00463D36 /* Build configuration list for PBXNativeTarget "TravelBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDBD16A1BB72D9F00463D36 /* Debug */,
+				FEDBD16B1BB72D9F00463D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDBD16C1BB72D9F00463D36 /* Build configuration list for PBXNativeTarget "TravelBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDBD16D1BB72D9F00463D36 /* Debug */,
+				FEDBD16E1BB72D9F00463D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDBD16F1BB72D9F00463D36 /* Build configuration list for PBXNativeTarget "TravelBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDBD1701BB72D9F00463D36 /* Debug */,
+				FEDBD1711BB72D9F00463D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEDBD1341BB72D9E00463D36 /* Project object */;
+}
