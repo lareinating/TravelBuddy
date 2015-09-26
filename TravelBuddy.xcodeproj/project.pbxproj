@@ -50,6 +50,8 @@
 		FEDBD1B91BB733DA00463D36 /* TB Bug-30.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD1991BB733DA00463D36 /* TB Bug-30.png */; settings = {ASSET_TAGS = (); }; };
 		FEDBD1BA1BB733DA00463D36 /* TB Bug-30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD19A1BB733DA00463D36 /* TB Bug-30@2x.png */; settings = {ASSET_TAGS = (); }; };
 		FEDBD1C61BB7429400463D36 /* ListOfGuides.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD1C51BB7429400463D36 /* ListOfGuides.m */; settings = {ASSET_TAGS = (); }; };
+		FEDBD1C81BB747E000463D36 /* Lareina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD1C71BB747E000463D36 /* Lareina.jpg */; settings = {ASSET_TAGS = (); }; };
+		FEDBD1CB1BB74C6C00463D36 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD1CA1BB74C6C00463D36 /* MainController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +127,9 @@
 		FEDBD19A1BB733DA00463D36 /* TB Bug-30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TB Bug-30@2x.png"; path = "../../../../Downloads/opentok-ios-sdk-samples-develop/5.Multi-Party-Call/Multi-Party-Call/TB Bug-30@2x.png"; sourceTree = "<group>"; };
 		FEDBD1C41BB7429400463D36 /* ListOfGuides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfGuides.h; sourceTree = "<group>"; };
 		FEDBD1C51BB7429400463D36 /* ListOfGuides.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfGuides.m; sourceTree = "<group>"; };
+		FEDBD1C71BB747E000463D36 /* Lareina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lareina.jpg; path = ../../../Lareina.jpg; sourceTree = "<group>"; };
+		FEDBD1C91BB74C6C00463D36 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		FEDBD1CA1BB74C6C00463D36 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +202,8 @@
 			children = (
 				FEDBD1421BB72D9E00463D36 /* AppDelegate.h */,
 				FEDBD1431BB72D9E00463D36 /* AppDelegate.m */,
+				FEDBD1C91BB74C6C00463D36 /* MainController.h */,
+				FEDBD1CA1BB74C6C00463D36 /* MainController.m */,
 				FEDBD1781BB730BF00463D36 /* Main.storyboard */,
 				FEDBD1451BB72D9E00463D36 /* ViewController.h */,
 				FEDBD1461BB72D9E00463D36 /* ViewController.m */,
@@ -215,6 +222,7 @@
 		FEDBD13F1BB72D9E00463D36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FEDBD1C71BB747E000463D36 /* Lareina.jpg */,
 				FEDBD17B1BB733DA00463D36 /* icon_arrowLeft_enabled-28.png */,
 				FEDBD17C1BB733DA00463D36 /* icon_arrowLeft_enabled-28@2x.png */,
 				FEDBD17D1BB733DA00463D36 /* icon_arrowRight_enabled-28.png */,
@@ -385,6 +393,7 @@
 				FEDBD1A31BB733DA00463D36 /* camera-switch_black-33.png in Resources */,
 				FEDBD1B81BB733DA00463D36 /* Subscriber-Speaker-Mute-35@2x.png in Resources */,
 				FEDBD1B21BB733DA00463D36 /* mic_receiving_data-35@2x.png in Resources */,
+				FEDBD1C81BB747E000463D36 /* Lareina.jpg in Resources */,
 				FEDBD1A41BB733DA00463D36 /* camera-switch_black-33@2x.png in Resources */,
 				FEDBD1A51BB733DA00463D36 /* archiving_on-5.png in Resources */,
 				FEDBD1B41BB733DA00463D36 /* mic-24@2x.png in Resources */,
@@ -471,6 +480,7 @@
 				FEDBD1C61BB7429400463D36 /* ListOfGuides.m in Sources */,
 				FEDBD1731BB72F3600463D36 /* ShaderUtilities.c in Sources */,
 				FEDBD1441BB72D9E00463D36 /* AppDelegate.m in Sources */,
+				FEDBD1CB1BB74C6C00463D36 /* MainController.m in Sources */,
 				FEDBD1411BB72D9E00463D36 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
