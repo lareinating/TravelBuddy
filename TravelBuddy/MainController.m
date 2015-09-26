@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     
     UIGraphicsBeginImageContext(self.view.frame.size);
-    [[UIImage imageNamed:@"Background.jpg"] drawInRect:self.view.bounds];
+    [[UIImage imageNamed:@"1.jpg"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     

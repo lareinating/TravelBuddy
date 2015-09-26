@@ -1189,7 +1189,7 @@ connectionCreated:(OTConnection *)connection
     [self showAlert:
      [NSString stringWithFormat:@"There was an error connecting to session %@",
       session.sessionId]];
-    [self endCallAction:nil];
+//    [self endCallAction:nil];
 }
 
 - (void)publisher:(OTPublisher *)publisher didFailWithError:(OTError *)error
@@ -1197,7 +1197,7 @@ connectionCreated:(OTConnection *)connection
     NSLog(@"publisher didFailWithError %@", error);
     [self showAlert:[NSString stringWithFormat:
                      @"There was an error publishing."]];
-    [self endCallAction:nil];
+//    [self endCallAction:nil];
 }
 
 - (void)subscriber:(OTSubscriber *)subscriber didFailWithError:(OTError *)error
