@@ -1216,7 +1216,7 @@ connectionCreated:(OTConnection *)connection
         [_session disconnect:nil];
         return;
     }
-//    [self performSegueWithIdentifier:@"rateThis" sender:self];
+    [self performSegueWithIdentifier:@"rateThis" sender:self];
     
     
 }

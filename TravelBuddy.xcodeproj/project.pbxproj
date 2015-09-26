@@ -49,6 +49,7 @@
 		FEDBD1B81BB733DA00463D36 /* Subscriber-Speaker-Mute-35@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD1981BB733DA00463D36 /* Subscriber-Speaker-Mute-35@2x.png */; settings = {ASSET_TAGS = (); }; };
 		FEDBD1B91BB733DA00463D36 /* TB Bug-30.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD1991BB733DA00463D36 /* TB Bug-30.png */; settings = {ASSET_TAGS = (); }; };
 		FEDBD1BA1BB733DA00463D36 /* TB Bug-30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDBD19A1BB733DA00463D36 /* TB Bug-30@2x.png */; settings = {ASSET_TAGS = (); }; };
+		FEDBD1C61BB7429400463D36 /* ListOfGuides.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDBD1C51BB7429400463D36 /* ListOfGuides.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,8 @@
 		FEDBD1981BB733DA00463D36 /* Subscriber-Speaker-Mute-35@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Subscriber-Speaker-Mute-35@2x.png"; path = "../../../../Downloads/opentok-ios-sdk-samples-develop/5.Multi-Party-Call/Multi-Party-Call/Subscriber-Speaker-Mute-35@2x.png"; sourceTree = "<group>"; };
 		FEDBD1991BB733DA00463D36 /* TB Bug-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TB Bug-30.png"; path = "../../../../Downloads/opentok-ios-sdk-samples-develop/5.Multi-Party-Call/Multi-Party-Call/TB Bug-30.png"; sourceTree = "<group>"; };
 		FEDBD19A1BB733DA00463D36 /* TB Bug-30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TB Bug-30@2x.png"; path = "../../../../Downloads/opentok-ios-sdk-samples-develop/5.Multi-Party-Call/Multi-Party-Call/TB Bug-30@2x.png"; sourceTree = "<group>"; };
+		FEDBD1C41BB7429400463D36 /* ListOfGuides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListOfGuides.h; sourceTree = "<group>"; };
+		FEDBD1C51BB7429400463D36 /* ListOfGuides.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListOfGuides.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +206,8 @@
 				FEDBD14D1BB72D9E00463D36 /* LaunchScreen.storyboard */,
 				FEDBD1501BB72D9E00463D36 /* Info.plist */,
 				FEDBD13F1BB72D9E00463D36 /* Supporting Files */,
+				FEDBD1C41BB7429400463D36 /* ListOfGuides.h */,
+				FEDBD1C51BB7429400463D36 /* ListOfGuides.m */,
 			);
 			path = TravelBuddy;
 			sourceTree = "<group>";
@@ -463,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDBD1471BB72D9E00463D36 /* ViewController.m in Sources */,
+				FEDBD1C61BB7429400463D36 /* ListOfGuides.m in Sources */,
 				FEDBD1731BB72F3600463D36 /* ShaderUtilities.c in Sources */,
 				FEDBD1441BB72D9E00463D36 /* AppDelegate.m in Sources */,
 				FEDBD1411BB72D9E00463D36 /* main.m in Sources */,
